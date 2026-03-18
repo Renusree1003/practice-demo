@@ -5,5 +5,12 @@ public class Application {
 		System.out.println("Git Project");
 		System.out.println("Login feature");
 	}
+	
+	
+	class SubApplication extends Application{
+		 public void features() {
+		        System.out.println("Signup feature added");
+		 }
+	}
 
 }
